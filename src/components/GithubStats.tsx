@@ -9,6 +9,7 @@ async function getContributions() {
 	const svg = await response.json();
 	return svg;
 }
+export const dynamic = "force-dynamic";
 
 export default async function GithubStat() {
 	const user = await getGithubUser();
@@ -25,7 +26,12 @@ export default async function GithubStat() {
 							className="w-14 rounded-full"
 						/>
 					</div>
-					<div>{contribute.totalContributions}</div>
+					<h1 className="text-2xl font-bold text-center">
+						Total Contributions:
+					</h1>
+					<h1 className="font-bold text-2xl text-center">
+						{contribute.totalContributions}
+					</h1>
 				</div>
 			</section>
 		</>
