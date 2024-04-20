@@ -1,0 +1,38 @@
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .editor-group-watermark
+  > .letterpress {
+  aspect-ratio: 1/1;
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-height: 100%;
+  width: 100%;
+}
+.monaco-workbench.vs-dark
+  .part.editor
+  > .content
+  .editor-group-container
+  .editor-group-watermark
+  > .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png");
+}
+.monaco-workbench.hc-light
+  .part.editor
+  > .content
+  .editor-group-container
+  .editor-group-watermark
+  > .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png");
+}
+.monaco-workbench.hc-black
+  .part.editor
+  > .content
+  .editor-group-container
+  .editor-group-watermark
+  > .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png");
+}
