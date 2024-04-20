@@ -26,12 +26,14 @@ export default async function GithubStat() {
 							className="w-14 rounded-full"
 						/>
 					</div>
-					<h1 className="text-2xl font-bold text-center">
-						Total Contributions:
-					</h1>
-					<h1 className="font-bold text-2xl text-center">
-						{contribute.totalContributions}
-					</h1>
+					<div>
+						<h1 className="text-2xl font-bold text-center">
+							Total Contributions:
+						</h1>
+						<h1 className="font-bold text-2xl text-center">
+							{contribute.totalContributions}
+						</h1>
+					</div>
 				</div>
 			</section>
 		</>
