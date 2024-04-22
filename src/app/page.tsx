@@ -1,5 +1,5 @@
 import GithubStat from "../components/GithubStats";
-
+import Languages from "../components/Languages";
 export default function Home() {
   return (
     <>
@@ -15,8 +15,8 @@ export default function Home() {
           <p className="text-2xl tracking-wide">Alfath Izha Barikallah</p>
         </div>
       </section>
-
-      <GithubStat />
+      <Languages />
+      {/* <GithubStat /> */}
     </>
   );
 }
