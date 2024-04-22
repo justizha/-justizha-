@@ -26,7 +26,7 @@ export default function Navbar() {
 								<Link href={"/contact"}>Contact</Link>
 							</li>
 						</ul>
-						<ToggleTheme className="outline-none"/>
+						<ToggleTheme className="outline-none" />
 						<div className="md:hidden">
 							<button
 								type="button"
