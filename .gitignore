@@ -12,7 +12,7 @@
 # next.js
 /.next/
 /out/
-
+/src/app/testwork
 # production
 /build
 
