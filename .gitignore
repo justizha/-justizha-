@@ -8,7 +8,7 @@
 .background.main.css
 # testing
 /coverage
-
+/src/app/api
 # next.js
 /.next/
 /out/
