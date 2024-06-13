@@ -9,20 +9,20 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed z-10 w-full border-b bg-background shadow">
+      <header className="dark:bg-darkMode fixed z-10 w-full  border-b bg-white shadow">
         <nav className="p-2 px-6 py-3 md:px-32 lg:px-52">
           <div className="flex items-center justify-between">
             <Link href={"/"} className="text-2xl font-semibold md:text-3xl">
-              Alfath
+              Izha
             </Link>
-            <ul className=" hidden items-center gap-8 md:flex">
-              <li className="mb-4 text-xl">
+            <ul className="hidden items-center gap-8 md:flex">
+              <li className=" text-xl">
                 <Link href={"/about"}>About</Link>
               </li>
-              <li className="mb-4 text-xl">
-                <Link href={"/projects"}>Project</Link>
+              <li className=" text-xl">
+                <Link href={"/blogs"}>Blogs</Link>
               </li>
-              <li className="mb-4 text-xl">
+              <li className=" text-xl">
                 <Link href={"/contact"}>Contact</Link>
               </li>
             </ul>
@@ -40,6 +40,9 @@ export default function Navbar() {
           </div>
         </nav>
       </header>
+
+      {/* toggle Menu */}
+
       {isToggle && (
         <div className="fixed top-10 block h-screen w-full overflow-hidden bg-background shadow-lg md:hidden">
           <div className="px-4">

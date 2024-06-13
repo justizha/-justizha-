@@ -13,7 +13,7 @@ import {
 export default function ToggleTheme({ className }: { className: string }) {
   const { setTheme } = useTheme();
   return (
-    <div className={className}>
+    <div className={`${className}`}>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="ghost" size="icon">
@@ -22,7 +22,7 @@ export default function ToggleTheme({ className }: { className: string }) {
             <span className="sr-only">Toggle theme</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="center">
+        <DropdownMenuContent align="center" className=" dark:bg-darkMode">
           <DropdownMenuItem
             className="text-lg"
             onClick={() => setTheme("light")}
