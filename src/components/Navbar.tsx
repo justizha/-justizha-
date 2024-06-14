@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="dark:bg-darkMode fixed z-10 w-full  border-b bg-white shadow">
+      <header className="fixed z-10 w-full border-b  bg-white shadow dark:bg-darkMode">
         <nav className="p-2 px-6 py-3 md:px-32 lg:px-52">
           <div className="flex items-center justify-between">
             <Link href={"/"} className="text-2xl font-semibold md:text-3xl">
@@ -34,7 +34,18 @@ export default function Navbar() {
                   setToggle(!isToggle);
                 }}
               >
-                Menu
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Menu</title>
+                  <rect y="4" width="24" height="2" fill="black" />
+                  <rect y="11" width="24" height="2" fill="black" />
+                  <rect y="18" width="24" height="2" fill="black" />
+                </svg>
               </button>
             </div>
           </div>
@@ -51,7 +62,7 @@ export default function Navbar() {
                 <Link href={"/about"}>About</Link>
               </li>
               <li className="mb-4 border-b text-lg duration-200 hover:text-[#9EC8FF]">
-                <Link href={"/projects"}>Projects</Link>
+                <Link href={"/blogs"}>Blogs</Link>
               </li>
               <li className="mb-4 border-b text-lg duration-200 hover:text-[#9EC8FF]">
                 <Link href={"/contact"}>Contact</Link>

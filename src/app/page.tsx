@@ -8,13 +8,13 @@ export default function Home() {
       </div>
       <div className="pt-16">
         <h2 className="mb-2 text-3xl font-medium">Hello There !</h2>
-        <div className="text-xl">
+        <div className="text-lg tracking-wide">
           <p className="mb-2">
-            I'm Izha. Currently working as a Frontend Web Developer
+            I'm Izha! I'm currently working as a Frontend Web Developer.
           </p>
           <p>
-            Currently Interested in web design , Ai , UI UX , Gaming and
-            phycology
+            I am passionate about web design, artificial intelligence, UI/UX
+            ,e-sports , and psychology. phycology
           </p>
         </div>
       </div>
