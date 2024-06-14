@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 const SpaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Afath",
+  title: "JustIzha",
   description: "Something about this site.",
 };
 
