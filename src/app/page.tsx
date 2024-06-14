@@ -3,7 +3,7 @@ export default function Home() {
     <section className="py-36">
       <div className=" text-center">
         <h1 className="text-5xl font-black tracking-wider md:text-6xl lg:text-9xl">
-          JustIzha
+          JustIzha.
         </h1>
       </div>
       <div className="pt-16">

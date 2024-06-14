@@ -5,7 +5,7 @@ export default function Contact() {
         <h1 className="text-3xl font-bold">Contact.</h1>
         <h2 className="text-lg">Get to know me !</h2>
       </div>
-      <form action="POST" className="my-2">
+      <form action="POST" className="my-2" autoComplete="off">
         <div className="mb-4">
           <input
             placeholder="Your name"
