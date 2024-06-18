@@ -38,13 +38,13 @@ export default function Languages() {
         <li className="hover:shadow-l g rounded-xl border bg-gradient-to-br from-white to-gray-50 p-5 text-xl transition duration-200 hover:-translate-y-1 dark:border-gray-700  dark:from-gray-700/75 dark:to-gray-800/75">
           <div className="flex h-full w-full flex-col items-center justify-center gap-3">
             <img
-              src="/img/php.png"
+              src="/img/PHP.png"
               alt="php"
               className="absolute w-2 opacity-10 blur-md filter md:w-48"
             />
             <img
-              src="/img/php.png"
-              alt="php"
+              src="/img/PHP.png"
+              alt="PHP"
               className="w-20 md:w-36"
               loading="lazy"
             />
@@ -103,12 +103,12 @@ export default function Languages() {
         <li className="hover:shadow-l g transit200 rounded-xl border bg-gradient-to-br from-white to-gray-50 p-5 text-xl duration-200 hover:-translate-y-1 dark:border-gray-700  dark:from-gray-700/75 dark:to-gray-800/75">
           <div className="flex h-full w-full flex-col items-center justify-center gap-3">
             <img
-              src="/img/laravel.png"
+              src="/img/Laravel.png"
               alt="laravel"
               className="absolute w-2 opacity-10 blur-md filter md:w-48"
             />
             <img
-              src="/img/laravel.png"
+              src="/img/Laravel.png"
               alt="laravel"
               className="w-20 md:w-36"
               loading="lazy"
