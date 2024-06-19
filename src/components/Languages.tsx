@@ -1,6 +1,11 @@
 export default function Languages() {
   return (
     <section className="mx-auto">
+      <div className="py-3">
+        <h1 className="text-3xl font-bold dark:text-white">
+          Things i work with :
+        </h1>
+      </div>
       <ol className="grid w-full list-none grid-cols-2 gap-4 place-self-center text-lg text-gray-500 dark:text-gray-400 sm:grid-cols-4">
         {/* js */}
         <li className="rounded-xl border bg-gradient-to-br from-white to-gray-50 p-5 text-xl transition duration-200 hover:-translate-y-1 hover:shadow-lg  dark:border-gray-700  dark:from-gray-700/75 dark:to-gray-800/75">
