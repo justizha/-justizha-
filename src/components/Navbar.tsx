@@ -60,6 +60,11 @@ export default function Navbar() {
           <div className="px-2">
             <ul className="list-none p-8 pt-12">
               <li className={`${LinkClass}`}>
+                <Link href={"/"} onClick={() => setToggle(!isToggle)}>
+                  Home
+                </Link>
+              </li>
+              <li className={`${LinkClass}`}>
                 <Link href={"/blogs"} onClick={() => setToggle(!isToggle)}>
                   Blogs
                 </Link>
