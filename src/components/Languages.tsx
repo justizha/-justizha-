@@ -1,9 +1,9 @@
 export default function Languages() {
   return (
     <section className="mx-auto">
-      <div className="py-3">
+      <div className="pb-5">
         <h1 className="text-3xl font-bold dark:text-white">
-          Things i work with :
+          Techonologies I use :
         </h1>
       </div>
       <ol className="grid w-full list-none grid-cols-2 gap-4 place-self-center text-lg text-gray-500 dark:text-gray-400 sm:grid-cols-4">
