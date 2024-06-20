@@ -16,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${SpaceGrotesk.className} dark:bg-darkMode`}>
+    <html lang="en" className="scroll-smooth transition-all duration-200">
+      <body
+        className={`${SpaceGrotesk.className} bg-indigo-50 dark:bg-darkMode`}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           <main className="px-12 md:px-32 lg:px-52">{children}</main>

@@ -15,7 +15,7 @@
 /src/app/testwork
 # production
 /build
-
+next.md
 # misc
 .DS_Store
 *.pem

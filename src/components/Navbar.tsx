@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed z-10 w-full border-b border-indigo-400 bg-white shadow dark:bg-darkMode dark:shadow dark:shadow-indigo-900">
+      <header className="fixed z-50 w-full border-b border-indigo-400 bg-indigo-50  shadow dark:bg-darkMode dark:shadow dark:shadow-indigo-900">
         <nav className="p-2 px-6 py-3 md:px-32 lg:px-52">
           <div className="flex items-center justify-between">
             <Link href={"/"} className="text-2xl font-semibold md:text-3xl">
