@@ -16,7 +16,12 @@ async function getProjects() {
 export default async function Projects() {
   const projects = await getProjects();
   return (
-    <section className="relative">
+    <section className="relative py-24">
+      <div className="pb-8">
+        <h1 className="text-3xl font-medium dark:text-white">
+          Some Notable Projects
+        </h1>
+      </div>
       <article className="grid gap-3 md:grid-cols-3">
         {projects.map((project: any) => (
           <div

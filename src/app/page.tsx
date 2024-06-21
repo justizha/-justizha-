@@ -1,5 +1,5 @@
 import Languages from "../components/Languages";
-
+import Projects from "../components/Projects";
 export default function Home() {
   return (
     <>
@@ -26,6 +26,7 @@ export default function Home() {
         </div>
       </section>
       <Languages />
+      <Projects />
     </>
   );
 }
