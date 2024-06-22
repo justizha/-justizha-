@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className=" z-50 w-full bg-indigo-50 dark:bg-darkMode ">
+      <header className="z-50 w-full bg-indigo-50 dark:bg-darkMode ">
         <nav className="p-2 px-6 py-3 md:px-24 lg:px-40">
           <div className="flex items-center justify-between">
             <Link href={"/"} className="text-2xl font-semibold md:text-3xl">
@@ -23,10 +23,22 @@ export default function Navbar() {
             </Link>
             <ul className="hidden items-center gap-8 md:flex">
               <li className=" text-xl">
-                <Link href={"/blogs"}>Blogs</Link>
+                <Link
+                  href={"/blogs"}
+                  className="duration-200 hover:text-indigo-200 "
+                >
+                  Blogs
+                  <div className="" />
+                </Link>
               </li>
               <li className=" text-xl">
-                <Link href={"/contact"}>Contact</Link>
+                <Link
+                  href={"/contact"}
+                  className="duration-200 hover:text-indigo-200 "
+                >
+                  Contact
+                  <div className="" />
+                </Link>
               </li>
             </ul>
             <ToggleTheme className="hidden md:flex" />
