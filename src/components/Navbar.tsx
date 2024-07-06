@@ -73,7 +73,7 @@ export default function Navbar() {
 
       {isToggle && (
         <div className="flex justify-center">
-          <div className="fixed top-14 z-50 block h-1/2 w-3/4 overflow-hidden rounded-md border bg-indigo-50 shadow-lg dark:bg-darkMode md:hidden">
+          <div className="fixed top-14 z-50 block h-1/2 w-[90%] overflow-hidden rounded-md border bg-indigo-50 shadow-lg dark:bg-darkMode md:hidden">
             <div className="flex justify-end px-5 py-3">
               <button
                 type="button"
