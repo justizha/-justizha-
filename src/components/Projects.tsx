@@ -25,19 +25,25 @@ export default async function Projects() {
       <article className="grid gap-3 md:grid-cols-3">
         {projects.map((project: any) => (
           <div
-            className="min-h-72 max-w-md rounded-md bg-indigo-100 px-4 py-2 duration-300 hover:scale-105 dark:bg-indigo-950"
+            className=" min-h-64 w-full max-w-md rounded-md bg-indigo-100 px-4 py-2 duration-300 hover:scale-105 dark:bg-indigo-950"
             key={project.id}
           >
-            <div className="flex justify-between gap-2">
+            <div className="rounded-lg ">
               <div className="flex flex-col gap-8">
-                <h1 className="text-lg font-medium">{project.full_name}</h1>
-                <p className="text-base">{project.description}</p>
+                <h1 className="text-xl font-semibold text-gray-800">
+                  {project.full_name}
+                </h1>
+                <p className="text-base text-gray-600">{project.description}</p>
               </div>
-              <img
-                src={`${project.owner.avatar_url}`}
-                alt={`${project.owner.login}`}
-                className="h-20  w-20 rounded-md"
-              />
+
+              <div className="mt-4 flex items-center gap-4">
+                <img
+                  src={project.owner.avatar_url}
+                  alt={`${project.owner.login}'s avatar`}
+                  className="h-20 w-20 rounded-md"
+                />
+                <p className="text-base text-gray-700">{project.language}</p>
+              </div>
             </div>
           </div>
         ))}
