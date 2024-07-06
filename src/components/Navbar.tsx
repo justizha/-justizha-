@@ -72,9 +72,18 @@ export default function Navbar() {
       {/* toggle Menu */}
 
       {isToggle && (
-        <div className="fixed top-10 block h-screen w-full overflow-hidden bg-white shadow-lg dark:bg-darkMode md:hidden">
-          <div className="px-2">
-            <ul className="list-none p-8 pt-12">
+        <div className="flex justify-center">
+          <div className="fixed top-14 z-50 block h-1/2 w-3/4 overflow-hidden rounded-md border bg-indigo-50 shadow-lg dark:bg-darkMode md:hidden">
+            <div className="flex justify-end px-5 py-3">
+              <button
+                type="button"
+                onClick={() => setToggle(!isToggle)}
+                className="text-2xl font-bold dark:text-white"
+              >
+                X
+              </button>
+            </div>
+            <ul className="list-none  p-5">
               <li className={`${LinkClass}`}>
                 <Link href={"/"} onClick={() => setToggle(!isToggle)}>
                   Home
