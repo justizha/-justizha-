@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 async function getProjects() {
   const res = await fetch("https://api.github.com/users/justizha/repos");
   if (!res.ok) {
@@ -28,11 +30,16 @@ export default async function Projects() {
             className=" min-h-64 w-full max-w-md rounded-md bg-indigo-100 px-4 py-2 duration-300 hover:scale-105 dark:bg-indigo-950"
             key={project.id}
           >
-            <div className="rounded-lg ">
+            <div className="rounded-lg">
               <div className="flex flex-col gap-8">
-                <h1 className="text-xl font-semibold text-gray-800">
+                <Link
+                  href={project.html_url}
+                  className="text-xl font-semibold text-gray-800 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {project.full_name}
-                </h1>
+                </Link>
                 <p className="text-base text-gray-600">{project.description}</p>
               </div>
 
