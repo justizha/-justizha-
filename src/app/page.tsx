@@ -13,7 +13,12 @@ export default function Home() {
           </h1>
         </div>
         <div className="pt-16">
-          <h2 className="mb-2 text-3xl font-medium">Hello There !</h2>
+          <h2 className="mb-2 text-3xl font-medium tracking-wide">
+            <span className="bg-indigo-500 p-[2px] dark:bg-indigo-800 mr-2">
+              Hello
+            </span>
+            There !{" "}
+          </h2>
           <div className="text-lg tracking-wide">
             <p className="mb-2">
               I'm Izha! I'm currently working as a Frontend Web Developer.

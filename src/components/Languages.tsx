@@ -2,7 +2,7 @@ export default function Languages() {
   return (
     <section className="mx-auto">
       <div className="pb-8">
-        <h1 className="text-3xl font-medium dark:text-white">
+        <h1 className="text-2xl font-medium dark:text-white md:text-3xl">
           Techonologies I use :
         </h1>
       </div>

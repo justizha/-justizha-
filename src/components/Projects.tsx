@@ -34,13 +34,15 @@ export default async function Projects() {
               <div className="flex flex-col gap-8">
                 <Link
                   href={project.html_url}
-                  className="text-xl font-semibold text-gray-800 underline"
+                  className="text-xl font-semibold text-gray-800 underline dark:text-indigo-50"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {project.full_name}
                 </Link>
-                <p className="text-base text-gray-600">{project.description}</p>
+                <p className="text-base text-gray-600 dark:text-indigo-100">
+                  {project.description}
+                </p>
               </div>
 
               <div className="mt-4 flex items-center gap-4">
@@ -49,7 +51,9 @@ export default async function Projects() {
                   alt={`${project.owner.login}'s avatar`}
                   className="h-20 w-20 rounded-md"
                 />
-                <p className="text-base text-gray-700">{project.language}</p>
+                <p className="text-base text-gray-700 dark:text-indigo-100">
+                  {project.language}
+                </p>
               </div>
             </div>
           </div>
