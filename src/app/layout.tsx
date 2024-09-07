@@ -4,6 +4,7 @@ import "./globals.css";
 import ThemeProvider from "../components/ThemeProvider";
 import Navbar from "../components/Navbar";
 import ToTopButton from "../components/ToTopButton";
+import Footer from "@/components/Footer";
 
 const SpaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           <main className="px-8 md:px-24 lg:px-40">{children}</main>
           <ToTopButton />
         </ThemeProvider>
+        <Footer />
       </body>
     </html>
   );

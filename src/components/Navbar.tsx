@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href={"/"} className="text-2xl font-semibold md:text-3xl">
               <img
-                src="/img/logo.png"
+                src="https://avatars.githubusercontent.com/u/111278617?v=4"
                 alt="logo"
                 className="h-8 w-8 rounded-md"
               />
