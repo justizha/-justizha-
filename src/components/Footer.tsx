@@ -13,6 +13,7 @@ export default function Footer() {
           <li>
             <Link
               className="cursor-pointer"
+              target="_blank"
               href={"https://instagram.com/thisizha"}
             >
               <InstagramLogoIcon className="h-5 w-5" />
@@ -21,6 +22,7 @@ export default function Footer() {
           <li>
             <Link
               className="cursor-pointer"
+              target="_blank"
               href={"https://twitter.com/ThisIzha"}
             >
               <TwitterLogoIcon className="h-5 w-5" />
@@ -29,6 +31,7 @@ export default function Footer() {
           <li>
             <Link
               className="cursor-pointer"
+              target="_blank"
               href={"https://github.com/justizha"}
             >
               <GitHubLogoIcon className="h-5 w-5" />
@@ -36,7 +39,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="flex justify-center mt-2">
+      <div className="mt-2 flex justify-center">
         <p className="text-sm">©JustIzha</p>
       </div>
     </footer>
